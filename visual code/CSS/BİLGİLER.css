@@ -1,0 +1,99 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    height: 10vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner > .navbar > ul{
+ position: relative;
+ left: 500px;
+ top: 50px;
+}
+
+.navbar{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   padding: 32px 0;
+   align-items: center;
+   justify-content: center;
+ 
+}
+
+.navbar ul li a:hover{
+    transition: 1s;
+    background-color: #ffffff;
+}
+
+.Logo{
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: rgb(243, 0, 0);
+    text-align: center;
+}
+
+.content h1{
+    font-size: 65px;
+}
+
+.content p{
+    margin: 20px auto;
+}
+
+
+a{
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(6, 255, 243);
+    cursor: pointer;
+    font-weight:600;
+    background-color: #ff0000;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+a :hover{
+    color: rgb(236, 236, 236);
+    transition: 1s;
+}
+
+h3{
+    text-align: center;
+    justify-content: flex-start;
+        
+}
+h5{
+    text-align: center;
+    justify-content: flex-start;
+    
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-color:rgb(122, 31, 31);
+}
+header{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+padding-top: 70px;}
+header > img{
+
+    display: block;
+    width: 10%;
+
+    
+}
+header li{
+    list-style-type: none;
+}
+a{
+    width: 150px;
+    padding: 15px;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight:600;
+    background-color: #b36161;
+    font-size: 17px;
+    text-decoration: none;
+    
+    
+}
+a :hover{
+    color: black;
+    transition: 1s;
+}
+
+header > ul{
+    display: flex;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kupa{
+    height: 300px;
+    width: 150px;
+
+    
+}
+main > section{
+    padding: 10px;
+    border: 1px solid black;
+}
+h6{
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.makale{
+    height: 0px;
+    overflow: hidden;
+}
+h6:hover + .makale{
+    height: auto;
+}
+.makale:hover {
+ height: auto;
+}
